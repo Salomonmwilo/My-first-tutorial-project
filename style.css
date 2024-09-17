@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,18 @@
 body{
     background-color: hsl(210, 46%, 95%);
     font-size: 13px ;
+    font-family: "Ballow Semi Condesend", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600 ;
+}
+small{
+    color: white;
+    opacity: 50%;
+}
+p{
+    line-height: 1.2;
+    opacity: 70%;
 }
 .container{
     margin: 20px;
@@ -18,7 +31,7 @@ body{
     padding: 20px;
     border-radius: 10px;
     color: white;
-    box-shadow: 0 10px 20px #000003;
+    box-shadow: 0 3px 7px #000003;
 } 
 .cards.violet {
     background-color: hsl(263, 55%, 52%);
