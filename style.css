@@ -12,8 +12,11 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-weight: 600 ;
 }
-small{
+.smell{
     color: white;
+    opacity: 50%;
+}
+.color{
     opacity: 50%;
 }
 p{
@@ -43,7 +46,7 @@ p{
     background-color: hsl(219, 29%, 14%);
 }
 .cards.white{
-    background-color: white ;
+    background-color: rgb(255, 255, 255) ;
    color: hsl(217, 19%, 35%);
 }
 .cards .quotes {
